@@ -84,6 +84,19 @@
   - <img width="775" height="511" alt="image" src="https://github.com/user-attachments/assets/80f8e64e-9a8c-4e94-880e-e6623f9a35c1" />
  - Users will have to remember only their Okta credentials, and once they are logged into Okta, they will be able to get access into all of the company's apps available for them with may be just one click, thats it. 
 
+# Features of Okta
+ - Okta features include:
+   1. Provisioning
+   2. Active Directory Integration
+   3. LDAP Integration
+   4. Single Sign On (SSO) to a large variety of apps
+   5. Centralized Deprovisioning of Users
+   6. MFA Solutions
+   7. Flexible Policies
+   8. Mobile Identity Management
+   9. API Management
+- All of these Okta features are evolving around OIN - Okta Integration Network, which is a database of preintegrated apps which enables SSO login for apps that users need to access. 
+
 # Understanding Which Apps can be integrated with Okta
   - In today’s identity landscape, applications don’t all speak the same language — 
   - some rely on modern cloud-native protocols like OAuth 2.0, OpenID Connect, and SCIM, 
