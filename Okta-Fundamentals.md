@@ -55,6 +55,7 @@
 # Course Introduction
 
 # Understanding Okta / What is Okta
+- Okta is mainly an Identity Provider (Idp), capable to connect any application to any person.
 - Remember that Okta is neitehr an Authentication nor an Authorization protocol, It's a product, it's a platform.
 - What is Okta
   - Okta is a Cloud-native IAM from Day 1.
