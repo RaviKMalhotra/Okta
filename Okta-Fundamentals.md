@@ -92,13 +92,24 @@
   - Supported protocols: OIDC, OAuth2.0, SCIM, SAML, LDAP, RADIUS.
   - Custom Integrations: Developers can build new connectors via Okta's App Integration Wizard (AIW)
 		
-# Understanding Okta Accounts
-- Okta has 2 different platforms
+# Understanding Okta Platform, & Accounts (Free, Trial, and Paid)
+
+## Okta Developer Account - Overview
+  - The Okta Developer Account is a free, forever‑available sandbox environment designed for developers, students, and learners to explore identity and access management. 
+  - The Okta Developer Account is the best entry point for students, learners, and developers. 
+  - You can practice SSO, OAuth/OIDC, SCIM, MFA, and passwordless authentication — all in a safe environment that mirrors enterprise features.
+  - It provides hands‑on access to Okta’s core features without requiring a paid subscription.
+  - Sign up at developer.okta.com
+  - It provides a sandbox environment with limited users and apps. It's not production grade, therefore best for testing. 
+  - Ideal for learning, testing integrations, and building proof-of-concepts.
+  - when you sign up, Okta provisions your own tenant (e.g., your-org.okta.com) like (ravikmalhotra.okta.com
+
+## Okta has 2 different platforms
 - access https://www.okta.com, and then click on 'Free Trial'
 - There you will 2 different platforms, termed as (1) Okta Platform, and (2) Auth0 Platform.
  
 1. Workforce Identity Cloud (WIC).
-  - This is also known as octa core.
+  - This is the core Okta platform (sometimes called “Okta Classic/Identity Engine”).
   - Mostly paid + trial both.
   - it has 8000+ pre-built integrations. No more vendor lock-ins
   - Automated 1-click user onboarding and offboarding.
@@ -107,8 +118,12 @@
   - You need to have a work email for signing up.
    
 2. Customer Identity Cloud (Auth0), this offers free tiers.
+  - This is built on Auth0, which was acquired by Okta in 2021. 
+  - if supports OAuth2.0, OIDC, JWT support for app logins.
+  - Offers free tiers (forever) for students, learners, and developers. 
 
-# Free Accounts
+<img width="1656" height="652" alt="image" src="https://github.com/user-attachments/assets/69c68eaa-6074-45b4-a6ca-806346057dd0" />
+
 
 
 
