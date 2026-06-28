@@ -68,7 +68,14 @@
   - It provides authentication + authorization as a managed service so you dont have to build login/security yourself.
   - Okta evolved from SAML based SSO --> to --> API driven identity platform --> Zero Trust control plane covering workforce, customers, APIs & Infrastructure.
   -
-
+# Why do we need Okta / What does Okta solve?
+  - Historically we know that organizations use Active Directory as the single source of truth for their users.
+  - AD is the main database that they use to prove a user is who he claims to be, which is not possible otherwise
+  - Now, you have seen the massive adoption of SaaS apps around you, which brings flexibility, scalability, and agility.
+  - Now, these SaaS apps have their own directories, which is not synced with your active directory, and cannot be either
+  - you dont have a one SaaS app, you have 100 of them in use in your daily life.
+  - so, these SaaS apps have their own directory which runs in the cloud
+  - 
 # Understanding Which Apps can be integrated with Okta
   - In today’s identity landscape, applications don’t all speak the same language — 
   - some rely on modern cloud-native protocols like OAuth 2.0, OpenID Connect, and SCIM, 
