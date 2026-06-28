@@ -104,6 +104,19 @@
   - Ideal for learning, testing integrations, and building proof-of-concepts.
   - when you sign up, Okta provisions your own tenant (e.g., your-org.okta.com) like (ravikmalhotra.okta.com
 
+# How i created my account.
+  - access https://www.developer.okta.com
+  - <img width="1656" height="652" alt="image" src="https://github.com/user-attachments/assets/69c68eaa-6074-45b4-a6ca-806346057dd0" />
+  - Click on 'Try Auth0 Platforms"
+  - then provide the desired personal email ID in the Sign Up screen and click on Continue
+  - Next you will see a screen titled 'Create your Auth0 Account', enter an email ID and click on Continue button.
+  - Okta will send you 6 digits OTP, validate that
+  - then setup the password
+  - It will show you a screen with its desired tenant, refer to the screenshot below. I have modified the tenant to my choice 'ravikmalhotra'
+  - My tenant looks like ravikmalhotra.us.auth0.com
+  - <img width="1670" height="732" alt="image" src="https://github.com/user-attachments/assets/ba9fa417-a873-4f1a-b3e9-425a8b8e73e3" />
+
+
 ## Okta has 2 different platforms
 - access https://www.okta.com, and then click on 'Free Trial'
 - There you will 2 different platforms, termed as (1) Okta Platform, and (2) Auth0 Platform.
