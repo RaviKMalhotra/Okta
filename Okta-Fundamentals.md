@@ -67,7 +67,31 @@
   - It provides authentication + authorization as a managed service so you dont have to build login/security yourself.
   - Okta evolved from SAML based SSO --> to --> API driven identity platform --> Zero Trust control plane covering workforce, customers, APIs & Infrastructure.
   -
- 
+
+# Understanding Which Apps can be integrated with Okta
+  - In today’s identity landscape, applications don’t all speak the same language — 
+  - some rely on modern cloud-native protocols like OAuth 2.0, OpenID Connect, and SCIM, 
+  - while others still depend on legacy standards such as SAML, LDAP, or RADIUS. 
+  - Okta isn’t a protocol itself; it’s the identity platform that acts as a universal translator, 
+  - It supports all of these standards so organizations can connect both their latest SaaS tools and their older enterprise systems under one secure umbrella.
+  - In one line, Okta supports OIDC, OAuth 2.0, SCIM, SAML, LDAP & Radius.
+  - Example of Modern protocols (OIDC, OAuth 2.0, SCIM)
+    - Slack : OIDC for login + SCIM for user provisioning/deprovisioning
+    - Zoom  : OIDC for login + SCIM for license management
+   
+  - Example of Legacy protocols (SAML, LDAP, RADIUS)
+    - Salesforce : SAML for login + SCIM for provisioning
+    - Workday : SAML for authentication + SCIM
+
+# Understanding OIN (Okta Integration Network)
+  - The Okta Integration Network is Okta's marketplace of pre-built connectors.
+  - It works like a Universal Identity Hub that means Okta speaks whichever "language" the app requires. 
+  - OIN is a technical backbone that makes Okta more powerful, scalable, and future-proof. 
+  - It enables seamless integration with thousands of application using industry-standard protocols.
+  - scale: over 8,000+ pre-built integrations available.
+  - Supported protocols: OIDC, OAuth2.0, SCIM, SAML, LDAP, RADIUS.
+  - Custom Integrations: Developers can build new connectors via Okta's App Integration Wizard (AIW)
+		
 # Understanding Okta Accounts
 - Okta has 2 different platforms
 - access https://www.okta.com, and then click on 'Free Trial'
