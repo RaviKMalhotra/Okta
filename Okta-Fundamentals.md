@@ -1,8 +1,3 @@
-
-Ravi <mail2ravimalhotra@gmail.com>
-12:20 PM (3 hours ago)
-to me
-
 # Jai Mahakal
 # Okta Course Overview
 
@@ -59,37 +54,21 @@ to me
 
 # Course Introduction
 
-# Understanding Okta
+# Understanding Okta / What is Okta
 - Remember that Okta is neitehr an Authentication nor an Authorization protocol, It's a product, it's a platform.
--
-# Defining Users in Okta
-
 - What is Okta
   - Okta is a Cloud-native IAM from Day 1.
   - Built as a SaaS (not on-prem IAM like LDAP/AD), API-first, multi-tenant architecture.
   - Founded in 2009 with the name of SaaSure, and rebranded to Okta in 2010.
   - Typical pain point during in that era was Enterprises were rapidly adopting SaaS apps (Salesforce, Google Apps, etc.)
   - Traditional on-prem identity systems couldn't scale to cloud environments.
- 
   - Acquired Auth0 in 2021.
   - Auth0 = Identity-as-a-Service (IDaaS) platform for Developers.
   - It provides authentication + authorization as a managed service so you dont have to build login/security yourself.
   - Okta evolved from SAML based SSO --> to --> API driven identity platform --> Zero Trust control plane covering workforce, customers, APIs & Infrastructure.
   -
-  -  
-# Configuring External Directories
-# Groups in Okta
-# Configuring SSO & Provisioning
-# Configuring Custom App Integration
-# Managing Access Requests Works
-# Configuring Universal Directories
-# Okta Policy Frameworks
-
-------------------------------------------------------
-
-# Fundamentals
-
-# Okta Accounts
+ 
+# Understanding Okta Accounts
 - Okta has 2 different platforms
 - access https://www.okta.com, and then click on 'Free Trial'
 - There you will 2 different platforms, termed as (1) Okta Platform, and (2) Auth0 Platform.
@@ -106,3 +85,19 @@ to me
 2. Customer Identity Cloud (Auth0), this offers free tiers.
 
 # Free Accounts
+
+
+
+# Defining Users in Okta
+# Configuring External Directories
+# Groups in Okta
+# Configuring SSO & Provisioning
+# Configuring Custom App Integration
+# Managing Access Requests Works
+# Configuring Universal Directories
+# Okta Policy Frameworks
+
+------------------------------------------------------
+
+# Fundamentals
+
