@@ -82,9 +82,7 @@
   - And as Okta is a cloud-native IAM, which comes right in between users and Apps, and work like a broker and facilitate cloud based identity service.
   - Refer to the screenshot below
   - <img width="775" height="511" alt="image" src="https://github.com/user-attachments/assets/80f8e64e-9a8c-4e94-880e-e6623f9a35c1" />
-
-
-
+ - Users will have to remember only their Okta credentials, and once they are logged into Okta, they will be able to get access into all of the company's apps available for them with may be just one click, thats it. 
 
 # Understanding Which Apps can be integrated with Okta
   - In today’s identity landscape, applications don’t all speak the same language — 
