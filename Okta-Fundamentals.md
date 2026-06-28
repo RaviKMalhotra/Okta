@@ -75,7 +75,17 @@
   - Now, these SaaS apps have their own directories, which is not synced with your active directory, and cannot be either
   - you dont have a one SaaS app, you have 100 of them in use in your daily life.
   - so, these SaaS apps have their own directory which runs in the cloud
-  - 
+  - So, this makes this whole situation complex, cause the app which user need to access is hosted in the cloud, but the user profile is primarily configured in AD which is on-prem and also protected behind the organization Firewall, so this does not facilitiate this type of connection.
+  - And because of this Users have to remember multiple usersnames/passwords for each of these SaaS apps.
+  - Refer to this screenshot below:
+  - <img width="802" height="507" alt="image" src="https://github.com/user-attachments/assets/f5e0d998-ed5e-4e9d-9cd9-9111428314c2" />
+  - And as Okta is a cloud-native IAM, which comes right in between users and Apps, and work like a broker and facilitate cloud based identity service.
+  - Refer to the screenshot below
+  - <img width="775" height="511" alt="image" src="https://github.com/user-attachments/assets/80f8e64e-9a8c-4e94-880e-e6623f9a35c1" />
+
+
+
+
 # Understanding Which Apps can be integrated with Okta
   - In today’s identity landscape, applications don’t all speak the same language — 
   - some rely on modern cloud-native protocols like OAuth 2.0, OpenID Connect, and SCIM, 
